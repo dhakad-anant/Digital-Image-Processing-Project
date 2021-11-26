@@ -4,7 +4,8 @@ Seam carving is a content-aware image resizing algorithm.It works by finding a n
 
 ## Interface 
 
-<img src="https://github.com/dhakad-anant/Digital-Image-Processing-Project/blob/main/interface.jpeg" height="500" width="700">
+<img src="https://github.com/dhakad-anant/Digital-Image-Processing-Project/blob/main/interface.jpeg" height="300" width="500">
+
 
 ## Requirements
 * OpenCV
