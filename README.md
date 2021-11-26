@@ -1,8 +1,6 @@
 # Digital Image Processing(CS517) Project
 
-<img src="https://github.com/andrewdcampbell/seam-carving/blob/master/demos/visuals/lake_shrink.gif" width="900">
-
-A fast Python implementation of [Seam Carving for Content-Aware Image Resizing ](https://inst.eecs.berkeley.edu/~cs194-26/fa18/hw/proj4-seamcarving/imret.pdf) (2007), including the improved energy algorithm described in [Improved Seam Carving for Video Retargeting](http://www.eng.tau.ac.il/~avidan/papers/vidret.pdf) (2008).
+Seam carving is a content-aware image resizing algorithm.It works by finding a number of seams, or paths of least importance, in an image and automatically removing them to reduce image dimensions or inserting them to extend the image. Seam carving also includes the ability to delete entire items from images and the capacity to manually define areas in which pixels may not be edited.
 
 ## Requirements
 * OpenCV
@@ -10,6 +8,12 @@ A fast Python implementation of [Seam Carving for Content-Aware Image Resizing ]
 * numba
 * numpy
 * django
+
+## Features 
+
+* Input image can be resized without any important information. 
+  
+* You can manually remove parts/objects in the image.
 
 ## Usage
 ```
