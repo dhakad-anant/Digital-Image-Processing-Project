@@ -20,7 +20,7 @@ Seam carving is a content-aware image resizing algorithm.It works by finding a n
 
 * Input image can be resized without any important information. 
   
-* You can manually remove parts/objects in the image.
+* You can manually remove parts/objects in the image. 
 
 ## Usage
 
@@ -38,7 +38,9 @@ Seam carving is a content-aware image resizing algorithm.It works by finding a n
 
 * Visualize Seam Removal Process : if you want to see the whole process turn it on (select yes)
   
-* Choose Energy Function : select desired option.
+* Choose Energy Function : select desired option. 
+  
+* Final output images are saved in the Project folder.
   
 ## Note
 
