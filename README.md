@@ -14,6 +14,8 @@ Seam carving is a content-aware image resizing algorithm.It works by finding a n
 * numpy
 * django
 
+- Run "pip install -r requirements.txt" to install all required libraries.
+
 ## Features 
 
 * Input image can be resized without any important information. 
