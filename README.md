@@ -2,6 +2,10 @@
 
 Seam carving is a content-aware image resizing algorithm.It works by finding a number of seams, or paths of least importance, in an image and automatically removing them to reduce image dimensions or inserting them to extend the image. Seam carving also includes the ability to delete entire items from images and the capacity to manually define areas in which pixels may not be edited.
 
+## Interface 
+
+<img src="https://github.com/dhakad-anant/Digital-Image-Processing-Project/blob/main/interface.jpeg" height="" width="500">
+
 ## Requirements
 * OpenCV
 * scipy

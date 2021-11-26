@@ -1,6 +1,6 @@
 # Digital Image Processing(CS517) Project
 
-<img src="https://github.com/dhakad-anant/Digital-Image-Processing-Project/blob/main/interface.jpeg" height="500" width="500">
+<img src="https://github.com/andrewdcampbell/seam-carving/blob/master/demos/visuals/lake_shrink.gif" width="900">
 
 A fast Python implementation of [Seam Carving for Content-Aware Image Resizing ](https://inst.eecs.berkeley.edu/~cs194-26/fa18/hw/proj4-seamcarving/imret.pdf) (2007), including the improved energy algorithm described in [Improved Seam Carving for Video Retargeting](http://www.eng.tau.ac.il/~avidan/papers/vidret.pdf) (2008).
 
