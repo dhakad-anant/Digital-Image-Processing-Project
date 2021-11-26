@@ -21,25 +21,28 @@ Seam carving is a content-aware image resizing algorithm.It works by finding a n
 * You can manually remove parts/objects in the image.
 
 ## Usage
-```
-python seam_carving.py (-resize | -remove) -im <IM_PATH> -out <OUTPUT_IM_NAME> 
-                       [-mask <MASK_PATH>] [-rmask <REMOVAL_MASK_PATH>] [-dy <DY>] [-dx <DX>] 
-                       [-vis] [-hremove] [-backward_energy]
-```
 
-The program is run via the command-line. There are two modes of operations: `resize` or `remove`. The former is for resizing an image vertically or horizontally and the latter is for removing an object as specified by a mask.
+* Choose Action 
+    - Resize : for resizing the image.
+    - Remove : for removing portions/objects
 
-For both modes:
-* `-im`: The path to the image to be processed.
-* `-out`: The name for the output image.
-* `-mask`: (Optional) The path to the protective mask. The mask should be binary and have the same size as the input image. White areas represent regions where no seams should be carved (e.g. faces).
-* `-vis`: If present, display a window while the algorithm runs showing the seams as they are removed.
-* `-backward_energy`: If present, use the backward energy function (i.e. gradient magnitude) instead of the forward energy function (default).
+* Choose Input Image : upload input image 
+  
+* Name of Output Image : give a suitable output name 
 
-For resizing:
-* `-dy`: Number of horizontal seams to add (if positive) or subtract (if negative). Default is 0.
-* `-dx`: Number of vertical seams to add (if positive) or subtract (if negative). Default is 0.
+* Change in Height Required : enter height that you want to change( +ve values means expanding the height, and -ve meaning shrinking the height) 
+  
+* Change in Width Required : enter Width that you want to change( +ve values means expanding the Width, and -ve meaning shrinking the Width) 
 
-For object removal:
-* `-rmask`: The path to the removal mask. The mask should be binary and have the same size as the input image. White areas represent regions to be removed.
-* `-hremove`: If present, perform seam removal horizontally rather than vertically. This will be more appropriate in certain contexts.
+* Visualize Seam Removal Process : if you want to see the whole process turn it on (select yes)
+  
+* Choose Energy Function : select desired option.
+  
+## Note
+
+* When choosing remove option: 
+    - after clicking on the submit button a dailog box with image will appear on your screen.
+    - scribble the area with mouse-click that you want to remove. 
+    - When the part is selected click "s" on your keyword. 
+    - Wait for few seconds and image will start removing the described object.
+  
