@@ -216,7 +216,6 @@ def remove_seam_grayscale(im, boolmask):
 def get_minimum_seam(im, energyfn, rmask=None):
     """
     DP algorithm for finding the seam of minimum energy. Code adapted from 
-    https://karthikkaranth.me/blog/implementing-seam-carving-with-python/
     """
     h, w = im.shape[:2]
     M = energyfn(im)
